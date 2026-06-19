@@ -210,7 +210,7 @@ export default function ArchitecturePage() {
           The site you&apos;re reading is a public demo on synthetic data. If a
           prospect signs a BAA and wants to evaluate against real denials, the
           live data does <em>not</em> go through{" "}
-          <code>denials.usesmpt.com</code>. The codebase deploys a second time
+          <code>usedenialfix.com</code>. The codebase deploys a second time
           into a private environment with different config. The deltas:
         </p>
         <div className="overflow-x-auto rounded-md border border-border">
@@ -348,8 +348,8 @@ const TESTBED_DELTAS: {
   },
   {
     concern: "URL",
-    publicDemo: "denials.usesmpt.com",
-    privateTestbed: "denials-private.⟨client⟩.usesmpt.com or per-client subdomain",
+    publicDemo: "usedenialfix.com",
+    privateTestbed: "denialfix-private.⟨client⟩ or per-client subdomain",
   },
 ];
 

@@ -3,7 +3,7 @@
 A working outpatient denial-management assistant by **Glenn Carter** ([@mrglennc64](https://github.com/mrglennc64)).
 Built as a portfolio piece for healthcare-AI engineering work.
 
-- **Live demo:** https://denials.usesmpt.com
+- **Live demo:** https://usedenialfix.com
 - **Stack:** Next.js 16 (App Router) · React 19 · TypeScript · Tailwind CSS 4 · Gemini
 - **Status:** v1 — three sequential live model calls over synthetic denials
 
